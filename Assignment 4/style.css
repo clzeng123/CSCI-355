@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 *{
   box-sizing: border-box;
@@ -7,23 +6,45 @@
   font-family: "Monseratt", sans-serif;
 }
 
+nav{
+  border-style: double;
+  border-width: 20px;
+}
+
 html{
   background-color: #447799;
 }
-section h2 h1{
-  font-family: "Monseratt", sans-serif;
-  text-align: center;
-  height: 200px;
-  color: white;
-  font-size: 20px;
+
+h1{
+    text-align: left;
+    margin-top: -250px;
+    color: gold;
+    font-size: 25px;
+    display: block ;
+    padding-top: 20%;
 }
 
-ul {
+cite{
+  margin-left: 25px;
+  font-size: 30px;
+  color: aquamarine;
+  display: list-item;
+  list-style-type: square;
+  line-height: 1.8;
+}
+
+a{
+  margin-left: 25px;
+  font-size: 30px;
+  color:chartreuse;
+}
+
+ul{
   list-style-type: none;
   overflow: hidden;
 }
 
-.dropdown {
+.dropdown{
   float: left;
   text-align: center;
 }
@@ -31,7 +52,7 @@ a {
   text-align: center;
 }
 
-.dropbtn {
+.dropbtn{
   display: inline-block;
   color: white;
   text-align: center;
@@ -69,75 +90,6 @@ li a:hover{
   display: block;
 }
 
-/*Contact.html*/
-.contact-section{
-  background-size:cover;
-  background: #222629;
-  padding: 40px 0;
-}
 
-.contact-section h1{
-  text-align: center;
-  color: #E0E0E0;
-}
 
-.border{
-  width:100px;
-  height: 10px;
-  background: #34495e;
-  margin: 40px auto;
-}
-
-.contact-form{
-  max-width: 600px;
-  margin: auto;
-  padding: 0 10px;
-  overflow: hidden;
-}
-
-.contact-form-text{
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 16px 0;
-  border: 0;
-  background: #111;
-  padding: 20px 40px;
-  outline: none;
-  color: #ddd;
-  transition: 0.5s;
-}
-
-.contact-form-text:hover{
-  box-shadow:0 0 10px 4px #34495e;
-}
-
-textarea.contact-form-text{
-  resize: none;
-  height:120px;
-}
-
-.contact-form-btn{
-  float: right;
-  border: 0;
-  background: #34495e;
-  padding: 12px 50px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.contact-form-btn:hover{
-  background: #2980b9;
-}
-
-h1{
-  padding-top: 20%;
-  color: #f9f9f9;
-  text-align: center;
-}
-
-p{
-  color: #f9f9f9;
-}
 
