@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: "Monseratt", sans-serif;
+}
+
+nav{
+  border-style: double;
+  border-width: 20px;
+}
+
+html{
+  background-color: lightslategrey;
+}
+
+h1{
+    text-align: left;
+    margin-top: -500px;
+    color: gold;
+    font-size: 40px;
+    padding-top: 20%;
+}
+
+h2{
+  font-size: 40px;
+  color: aqua;
+}
+
+cite{
+  margin-left: 35px;
+  font-size: 30px;
+  color: aquamarine;
+  display: list-item;
+  list-style-type: square;
+  line-height: 1.8;
+}
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.dropdown{
+  float: left;
+  text-align: center;
+}
+
+
+.dropbtn{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #34495e;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: grey;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #eeeeee;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*contact.html*/
+.contacts{
+  display: block;
+  background: beige;
+  padding: 30px
+}
+
+.contacts h1{
+  font-size: 40px;
+  color: black;
+  margin-left: -21px;
+  line-height: 1;
+  margin-top: -530px;
+}
+
+.contacts a{
+  margin-left: 0px;
+  font-size: 30px;
+  color:olivedrab;
+}
+
+/*AboutTheDeveloper.html*/
+.aboutDeveloper hi{
+    text-align: left;
+    margin-top: 111px;
+    color: gold;
+    font-size: 40px;
+    padding-top: 10%;
+}
